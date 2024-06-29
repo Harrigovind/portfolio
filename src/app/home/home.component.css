@@ -114,7 +114,8 @@
 }
 
 @media (max-width:768px){
-    .container-fluid{
+
+    .cell1, .cell2, .cell3, .cell4 , .container-fluid{
         background-color: rgb(34, 137, 102);
     }
 
