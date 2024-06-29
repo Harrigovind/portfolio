@@ -45,10 +45,10 @@ export class ContactComponent {
             console.log('Response:', data);
 
             if (data.result == 'success'){
-                alert("Data Saved Successfully!");
+                alert("Message sent successfully!");
             }
             else{
-                alert("Couldn't save data due to "+data.status);
+                alert("Couldn't send message due to "+data.status);
             }
             
             
